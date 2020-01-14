@@ -16,6 +16,9 @@ const Container = styled.div`
 `;
 
 const Text = styled.h1`
+	position: relative;
+	display: inline-block;
+	padding: 0.5em;
 	color: #fff;
 	font-size: 5em;
 	font-weight: 700;
@@ -23,22 +26,34 @@ const Text = styled.h1`
 	@media (max-width: 500px) {
 		font-size: 4em;
 	}
+	text-align: center;
+	max-width: 80%;
+	::before {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		content: "„";
+	}
+	::after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		content: "”";
+	}
 `;
 
-const Quotation = styled.span`
-	margin: 0 0.5em;
-`;
+// const Quotation = styled.span`
+// 	margin: 0 0.5em;
+// `;
 
 const App = () => {
 	const quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 	return (
 		<Container>
-			<Text>
-				<Quotation>„</Quotation>
-				{quote}
-				<Quotation>”</Quotation>
-			</Text>
+			{/* <Quotation>„</Quotation> */}
+			<Text>{quote}</Text>
+			{/* <Quotation>”</Quotation> */}
 		</Container>
 	);
 };
