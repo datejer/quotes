@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+
 import quotes from "./_quotes";
+import gradients from "./_gradients";
+
+const gradient = gradients[Math.floor(Math.random() * gradients.length)];
 
 const Container = styled.div`
 	height: 100vh;
@@ -8,6 +12,7 @@ const Container = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-image: ${gradient};
 `;
 
 const Text = styled.h1`
@@ -24,8 +29,8 @@ const Quotation = styled.span`
 	margin: 0 0.5em;
 `;
 
-function App() {
-	let quote = quotes[Math.floor(Math.random() * quotes.length)];
+const App = () => {
+	const quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 	return (
 		<Container>
@@ -36,6 +41,6 @@ function App() {
 			</Text>
 		</Container>
 	);
-}
+};
 
 export default App;
