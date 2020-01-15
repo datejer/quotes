@@ -7,7 +7,8 @@ import gradients from "./_gradients";
 const gradient = gradients[Math.floor(Math.random() * gradients.length)];
 
 const Container = styled.div`
-	height: 100vh;
+	position: absolute;
+	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
