@@ -23,8 +23,8 @@ const Text = styled.h1`
 	font-size: 5em;
 	font-weight: 700;
 	text-shadow: 7px 7px 0px rgba(255, 255, 255, 0.3);
-	@media (max-width: 500px) {
-		font-size: 4em;
+	@media (max-width: 550px) {
+		font-size: 2em;
 	}
 	text-align: center;
 	max-width: 80%;
@@ -42,18 +42,12 @@ const Text = styled.h1`
 	}
 `;
 
-// const Quotation = styled.span`
-// 	margin: 0 0.5em;
-// `;
-
 const App = () => {
 	const quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 	return (
 		<Container>
-			{/* <Quotation>„</Quotation> */}
 			<Text>{quote}</Text>
-			{/* <Quotation>”</Quotation> */}
 		</Container>
 	);
 };
