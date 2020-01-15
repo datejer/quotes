@@ -7,7 +7,7 @@ import gradients from "./_gradients";
 const gradient = gradients[Math.floor(Math.random() * gradients.length)];
 
 const Container = styled.div`
-	min-height: -webkit-fill-available;
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -31,8 +31,14 @@ const Text = styled.h1`
 	text-shadow: 7px 7px 0px rgba(255, 255, 255, 0.3);
 	@media (max-width: 550px) {
 		font-size: 2em;
+		text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.3);
+	}
+	@media (max-height: 550px) {
+		font-size: 2em;
+		text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.3);
 	}
 	text-align: center;
+	max-width: 80%;
 	::before {
 		position: absolute;
 		bottom: 0;
@@ -55,6 +61,14 @@ const Footer = styled.footer`
 	bottom: 0;
 	margin: 1em 0;
 	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+	@media (max-width: 550px) {
+		font-size: 1em;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	}
+	@media (max-height: 550px) {
+		font-size: 1em;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	}
 `;
 
 const Link = styled.a`
