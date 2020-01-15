@@ -13,6 +13,11 @@ const Container = styled.div`
 	align-items: center;
 	justify-content: center;
 	background-image: ${gradient};
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-o-user-select: none;
 `;
 
 const Text = styled.h1`
@@ -46,7 +51,7 @@ const App = () => {
 	const quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 	return (
-		<Container>
+		<Container onClick={() => window.location.reload()}>
 			<Text>{quote}</Text>
 		</Container>
 	);
