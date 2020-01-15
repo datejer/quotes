@@ -23,7 +23,7 @@ const Container = styled.div`
 
 const Text = styled.h1`
 	position: relative;
-	display: inline-block;
+	display: inline;
 	padding: 0.5em;
 	color: #fff;
 	font-size: 5em;
@@ -48,12 +48,30 @@ const Text = styled.h1`
 	}
 `;
 
+const Footer = styled.footer`
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	margin: 1em 0;
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+`;
+
+const Link = styled.a`
+	color: #fff;
+	font-weight: 400;
+`;
+
 const App = () => {
 	const quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 	return (
 		<Container onClick={() => window.location.reload()}>
 			<Text>{quote}</Text>
+			<Footer>
+				Made by <Link href="http://ejer.ga">ejer</Link>
+			</Footer>
 		</Container>
 	);
 };
