@@ -7,7 +7,7 @@ import gradients from "./_gradients";
 const gradient = gradients[Math.floor(Math.random() * gradients.length)];
 
 const Container = styled.div`
-	position: absolute;
+	min-height: -webkit-fill-available;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -33,7 +33,6 @@ const Text = styled.h1`
 		font-size: 2em;
 	}
 	text-align: center;
-	max-width: 80%;
 	::before {
 		position: absolute;
 		bottom: 0;
