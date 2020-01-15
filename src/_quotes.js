@@ -4,5 +4,6 @@ module.exports = [
 	`Wszystko ma swoje zady i walety.`,
 	`1C - jak cycki.`,
 	`seks`,
-	`bajabongo wariaciku`
+	`bajabongo wariaciku`,
+	`bagno`
 ];
