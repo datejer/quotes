@@ -5,5 +5,7 @@ module.exports = [
 	`1C - jak cycki.`,
 	`seks`,
 	`bajabongo wariaciku`,
-	`bagno`
+	`bagno`,
+	`O której jutro kończymy? - Nie wiem. Trzeba w biblii sprawdzić`,
+	`Dlaczego ty tu masz czipa? - Co? Cipa?`
 ];
