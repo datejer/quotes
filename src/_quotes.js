@@ -7,5 +7,7 @@ module.exports = [
 	`bajabongo wariaciku`,
 	`bagno`,
 	`O której jutro kończymy? - Nie wiem. Trzeba w biblii sprawdzić`,
-	`Dlaczego ty tu masz czipa? - Co? Cipa?`
+	`Dlaczego ty tu masz czipa? - Co? Cipa?`,
+	`can we go break`,
+	`animals are eat`
 ];
