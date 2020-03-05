@@ -9,5 +9,7 @@ module.exports = [
 	`O której jutro kończymy? - Nie wiem. Trzeba w biblii sprawdzić`,
 	`Dlaczego ty tu masz czipa? - Co? Cipa?`,
 	`can we go break`,
-	`animals are eat`
+	`animals are eat`,
+	`Adam Tadeusz - Pan Mickiewicz`,
+	`Czy wiedziałeś że 80 osób praworęcznych ma prawe ramię?`
 ];
