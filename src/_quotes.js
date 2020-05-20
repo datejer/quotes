@@ -13,4 +13,5 @@ module.exports = [
 	`Adam Tadeusz - Pan Mickiewicz`,
 	`Czy wiedziałeś że 80 osób praworęcznych ma prawe ramię?`,
 	`Wartacz to taki Wojciech Drewniak ale Bieda Edition`,
+	`zed leppelin`,
 ];
