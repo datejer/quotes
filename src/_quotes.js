@@ -14,4 +14,5 @@ module.exports = [
 	`Czy wiedziałeś że 80 osób praworęcznych ma prawe ramię?`,
 	`Wartacz to taki Wojciech Drewniak ale Bieda Edition`,
 	`zed leppelin`,
+	`I have an ask`,
 ];
