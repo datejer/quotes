@@ -15,4 +15,5 @@ module.exports = [
 	`Wartacz to taki Wojciech Drewniak ale Bieda Edition`,
 	`zed leppelin`,
 	`I have an ask`,
+	`Jeszcze nauczymy się sprzedawać bazy danych. Będziemy wszyscy bogaci.`,
 ];
