@@ -16,4 +16,5 @@ module.exports = [
 	`zed leppelin`,
 	`I have an ask`,
 	`Jeszcze nauczymy się sprzedawać bazy danych. Będziemy wszyscy bogaci.`,
+	`A czy Pani mi uwierzy, jak powiem, że nie mogę teraz być na lekcji?`,
 ];
