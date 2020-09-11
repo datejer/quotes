@@ -21,5 +21,6 @@ module.exports = [
 	`Ten dzień nie będzie dobry, będzie FANTASTYCZNY`,
 	`Mamo, idziemy do pizdo...picolo`,
 	`Stacja 7 - Adam umiera`,
-	`Szyper: *sprawdził obecność*; Franek: Ale przecież pan nie zaznaczył; Szyper: Kuuuuurrrwaaaa`
+	`Szyper: *sprawdził obecność*; Franek: Ale przecież pan nie zaznaczył; Szyper: Kuuuuurrrwaaaa`,
+	`Szulada: Pewnego dnia wstawiłem uczniowi jedynkę. Wracając powiedział że już nic gorszego go tego dnia nie może spotkać. Może - mogę mu zwiększyć wagę...`,
 ];
