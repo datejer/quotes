@@ -17,4 +17,9 @@ module.exports = [
 	`I have an ask`,
 	`Jeszcze nauczymy się sprzedawać bazy danych. Będziemy wszyscy bogaci.`,
 	`A czy Pani mi uwierzy, jak powiem, że nie mogę teraz być na lekcji?`,
+	`Dlaczego to jest tak, że rano do mnie znajomi piszą że umierają przez kaca, a ja nic nie czuję?`,
+	`Ten dzień nie będzie dobry, będzie FANTASTYCZNY`,
+	`Mamo, idziemy do pizdo...picolo`,
+	`Stacja 7 - Adam umiera`,
+	`Szyper: *sprawdził obecność*; Franek: Ale przecież pan nie zaznaczył; Szyper: Kuuuuurrrwaaaa`
 ];
