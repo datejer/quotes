@@ -1,4 +1,4 @@
-module.exports = [
+export default [
 	`Wszędzie w domu, ale dobrze najlepiej.`,
 	`Mam białego skina bo czarnego trzeba kupić.`,
 	`Wszystko ma swoje zady i walety.`,
