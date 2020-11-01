@@ -17,5 +17,11 @@ module.exports = [
 	`I have an ask`,
 	`Jeszcze nauczymy się sprzedawać bazy danych. Będziemy wszyscy bogaci.`,
 	`A czy Pani mi uwierzy, jak powiem, że nie mogę teraz być na lekcji?`,
-	`Co tutaj robi ten starszy pan z kotem? - Po pierwsze nie jestem stary, po drugie mam psa i po trzecie prowadzę lekcje`,
+	`Dlaczego to jest tak, że rano do mnie znajomi piszą że umierają przez kaca, a ja nic nie czuję?`,
+	`Ten dzień nie będzie dobry, będzie FANTASTYCZNY`,
+	`Mamo, idziemy do pizdo...picolo`,
+	`Stacja 7 - Adam umiera`,
+	`Szyper: *sprawdził obecność*; Franek: Ale przecież pan nie zaznaczył; Szyper: Kuuuuurrrwaaaa`,
+	`Szulada: Pewnego dnia wstawiłem uczniowi jedynkę. Wracając powiedział że już nic gorszego go tego dnia nie może spotkać. Może - mogę mu zwiększyć wagę...`,
+	`fuck sie adrian``Co tutaj robi ten starszy pan z kotem? - Po pierwsze nie jestem stary, po drugie mam psa i po trzecie prowadzę lekcje`,
 ];
