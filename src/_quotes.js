@@ -17,4 +17,5 @@ module.exports = [
 	`I have an ask`,
 	`Jeszcze nauczymy się sprzedawać bazy danych. Będziemy wszyscy bogaci.`,
 	`A czy Pani mi uwierzy, jak powiem, że nie mogę teraz być na lekcji?`,
+	`Co tutaj robi ten starszy pan z kotem? - Po pierwsze nie jestem stary, po drugie mam psa i po trzecie prowadzę lekcje`,
 ];
