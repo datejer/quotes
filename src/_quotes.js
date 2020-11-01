@@ -23,5 +23,6 @@ export default [
 	`Stacja 7 - Adam umiera`,
 	`Szyper: *sprawdził obecność*; Franek: Ale przecież pan nie zaznaczył; Szyper: Kuuuuurrrwaaaa`,
 	`Szulada: Pewnego dnia wstawiłem uczniowi jedynkę. Wracając powiedział że już nic gorszego go tego dnia nie może spotkać. Może - mogę mu zwiększyć wagę...`,
-	`fuck sie adrian``Co tutaj robi ten starszy pan z kotem? - Po pierwsze nie jestem stary, po drugie mam psa i po trzecie prowadzę lekcje`,
+	`fuck sie adrian`,
+	`Co tutaj robi ten starszy pan z kotem? - Po pierwsze nie jestem stary, po drugie mam psa i po trzecie prowadzę lekcje`,
 ];
