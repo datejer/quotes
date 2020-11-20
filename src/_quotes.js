@@ -28,5 +28,7 @@ export default [
 	`Życie jest jak trytytka. Nie cofniesz`,
 	`Barcin i Martek`,
 	`Something was not yes`,
-	`Sprawdźcie sobie ile trwa 45min nagranie`
+	`Sprawdźcie sobie ile trwa 45min nagranie`,
+	`Nie mogę być u każdego ucznia w domu i sprawdzać, czy tata spod stołu nie podpowiada odpowiedzi`,
+	`She is son`
 ];
